@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+            <VideoView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_alignParentTop="true"
+                android:id="@+id/vv_exercise_sensor"
+
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/tv_play"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/play"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/vv_exercise_sensor"
+                android:id="@+id/tv1_exercise_sensor"
+                android:text="Text"
+                android:fontFamily="roboto-regurlar"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textColor="#090909"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp" >
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btry_exercise_sensor"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#009688"
+            fancy:fb_focusColor="#66009688"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Try it your self !!"
+            fancy:fb_textColor="#FFFFFF" >
+        </mehdi.sakout.fancybuttons.FancyButton>
+    </LinearLayout>
+
+
+</FrameLayout>

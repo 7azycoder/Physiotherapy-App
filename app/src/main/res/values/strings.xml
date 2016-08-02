@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AAA Minor mTherapy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_starting">aaa mTherapyy</string>
+    <string name="title_activity_start_sensor">AAA StartmTherapy</string>
+    <string name="title_activity_exercise_sensor__blind">ExerciseSensor_Blind</string>
+    <string name="title_activity_intermediate1">IntermediateActivity1</string>
+</resources>

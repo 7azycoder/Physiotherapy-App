@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+
+
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="190dp"
+
+        android:translationZ="2dp"
+
+        card_view:cardElevation="3dp"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:background="@drawable/myrect"
+
+            android:id="@+id/rlcardview">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/iv_exercise_list_item"
+
+                />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|bottom"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-light"
+            android:textSize="35dp"
+            android:text="Exercise 1"
+            android:id="@+id/tv_exercise_listitem"
+            android:paddingBottom="20dp"
+            android:background="#4D000000"
+            />
+
+
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
